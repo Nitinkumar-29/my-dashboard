@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "start": "nodemon --ext ts --exec node --loader ts-node/esm index.ts"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "graphql": "^16.10.0",
+    "mongoose": "^8.12.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "typescript": "^5.8.2"
+  }
+}
